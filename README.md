@@ -55,7 +55,7 @@ Training losses look like this:
 
 ![alt text](resources/losses.png)
 
-### ⚙️ Run Inference (C++)
+### 2. ⚙️ Run Inference (C++)
 Build soulution using CMake. 
 Before that you should download LibTorch and OpenCV for C++.
 
