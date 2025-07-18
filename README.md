@@ -39,6 +39,7 @@ Run the training script to:
 
 ```bash
 python train.py
+```
 
 To evaluate:
 ```bash
