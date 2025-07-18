@@ -44,3 +44,6 @@ python train.py
 To evaluate:
 ```bash
 python eval.py
+```
+
+This creates **model_cpu.pt** in your working directory.
