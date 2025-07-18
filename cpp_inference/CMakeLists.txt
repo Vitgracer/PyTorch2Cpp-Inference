@@ -13,7 +13,7 @@ find_package(Torch REQUIRED)
 find_package(OpenCV REQUIRED)
 
 # Define the executable
-add_executable(main src/main.cpp)
+add_executable(main src/main.cpp src/params.h)
 
 # Link against Torch and OpenCV
 target_link_libraries(main "${TORCH_LIBRARIES}" ${OpenCV_LIBS})
