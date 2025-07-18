@@ -49,8 +49,21 @@ cd training
 python train.py
 ```
 
-This creates **model_cpu.pt** in your working directory
+This creates **model_cpu.pt** in your working directory.
 
 Training losses look like this: 
 
 ![alt text](resources/losses.png)
+
+### ⚙️ Run Inference (C++)
+Build soulution using CMake. 
+Before that you should download LibTorch and OpenCV for C++.
+
+Afterwards, in CMAKE-UI configure and generate a solution.
+
+Compile and run the C++ program using Visual Studio. It will:
+- Load the model using torch::jit::load
+- Read a 28×28 grayscale image, preprocess it
+- Run prediction
+- Print the predicted digit
+- You are awesome! 

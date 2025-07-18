@@ -1,2 +1,4 @@
 training/data
 *.pyc
+cpp_inference/build
+cpp_inference/pathes_to_cmake.txt
