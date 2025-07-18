@@ -9,7 +9,7 @@ It's not production code – just a **toy example** to help you get started with
 - ✅ A **PyTorch** training script (Python)
 - ✅ A **C++ inference** program using **LibTorch**
 - ✅ Preprocessing with OpenCV
-- ✅ Digit classification from 28×28 grayscale images (MNIST-style)
+- ✅ Digit classification from 28×28 grayscale images (MNIST-style) with simple CNN
 - ✅ TorchScript serialization
 - ✅ Android deployment
 
@@ -25,7 +25,14 @@ To make things smooth, I **recommend** the following setup:
 | OpenCV (C++)   | Any recent      |
 | Compiler       | MSVC            |
 
-> ⚠️ Make sure your **LibTorch and PyTorch versions match exactly**. Mismatched versions may cause cryptic errors. Also I used a debug CPU version of LibTorch.
+- ⚠️ Make sure your **LibTorch and PyTorch versions match exactly**. Mismatched versions may cause cryptic errors. 
+- ⚠️ Also I used a debug CPU version of LibTorch.
+- ⚠️ And don't forget to create a virtual environment: 
+```bash
+⦁ python -m venv torch_venv
+⦁ Source torch_venv/scripts/activate
+⦁ pip install torch torchvision torchaudio 
+```
 
 ## 🧑‍🏫 How It Works
 
@@ -38,12 +45,12 @@ Run the training script to:
 - Save the model in **CPU format** for C++ inference
 
 ```bash
+cd training
 python train.py
 ```
 
-To evaluate:
-```bash
-python eval.py
-```
+This creates **model_cpu.pt** in your working directory
 
-This creates **model_cpu.pt** in your working directory.
+Training losses look like this: 
+
+![alt text](resources/losses.png)
