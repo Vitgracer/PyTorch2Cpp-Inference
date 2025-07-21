@@ -1,8 +1,8 @@
 # 🧠 Digit Predictor with PyTorch & C++ Inference
 
-Welcome to **Digit Predictor** – a simple but cool demo that shows how to train a PyTorch model in Python, run it in fast C++ and then... in android!  
+Welcome to **Digit Predictor** – a simple but cool demo that shows how to train a PyTorch model in Python and run it in fast C++!  
 
-It's not production code – just a **toy example** to help you get started with native inference using TorchScript. It’s great for learning how to bridge Python & C++ & Android.
+It's not production code – just a **toy example** to help you get started with native inference using TorchScript. It’s great for learning how to bridge Python & C++.
 
 ## 🛠️ What’s Inside?
 
@@ -11,7 +11,6 @@ It's not production code – just a **toy example** to help you get started with
 - ✅ Preprocessing with OpenCV
 - ✅ Digit classification from 28×28 grayscale images (MNIST-style) with simple CNN
 - ✅ TorchScript serialization
-- ✅ Android deployment
 
 ## 🧪 Prerequisites
 
