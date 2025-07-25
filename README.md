@@ -1,3 +1,5 @@
+![](https://api.visitorbadge.io/api/VisitorHit?user=Vitgracer&repo=PyTorch2Cpp-Inference&countColor=%237B1E7A)
+
 # 🧠 Digit Predictor with PyTorch & C++ Inference
 
 Welcome to **Digit Predictor** – a simple but cool demo that shows how to train a PyTorch model in Python and run it in fast C++!  
